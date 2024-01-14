@@ -11,8 +11,8 @@ export default function App() {
   return (
     <div className="flex w-card flex-col items-center space-y-6">
       <img
-        src="https://github.com/diogo-kappaun.png"
-        className="w-img rounded-full shadow-lg"
+        src="/src/Assets/diogo.png"
+        className="w-img rounded-full object-fill shadow-lg"
         alt="Diogo Kappaun"
       />
       <div className="flex flex-col items-center gap-1">
