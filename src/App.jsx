@@ -6,12 +6,13 @@ import {
 } from 'react-icons/bi'
 import { Button } from './Components/Button'
 import { LinkSocial } from './Components/LinkSocial'
+import diogo from './Assets/diogo.png'
 
 export default function App() {
   return (
     <div className="flex w-card flex-col items-center space-y-6">
       <img
-        src="/src/Assets/diogo.png"
+        src={diogo}
         className="w-img rounded-full object-fill shadow-lg"
         alt="Diogo Kappaun"
       />
